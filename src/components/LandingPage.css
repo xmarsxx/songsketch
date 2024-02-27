@@ -1,0 +1,47 @@
+/* src/components/LandingPage.css */
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url('./rustic_paper.jpg'); /* Set background image */
+  background-size: cover; /* Cover the entire background */
+}
+
+  .logo {
+    width: 600px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: -40px; /* Add some space below the logo */
+}
+  
+  p {
+    font-size: 2em; /* Increase font size */
+    font-family: 'Trebuchet MS', sans-serif; /* Change font family */
+    color: rgb(23, 34, 82); /* Set text color to white */
+  }
+  
+  .input-container {
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #082531;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2681b3;
+  }
+  
