@@ -7,6 +7,7 @@ import LandingPage from './components/LandingPage';
 import LoginPage from './components/LoginPage';
 import Teacher from './components/Teacher';
 import SongListPage from './components/SongListPage';
+import { MelodicDictation } from './pages/MelodicDictation';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/teacher" element={<Teacher />} />
         <Route path="/songs" element={<SongListPage />} />
+        <Route path="/melodic" element={<MelodicDictation />} />
       </Routes>
       <Footer /> {/* Include the footer component */}
     </Router>
